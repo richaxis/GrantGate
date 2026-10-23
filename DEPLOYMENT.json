@@ -1,0 +1,29 @@
+{
+  "network": "Studio Next",
+  "rpc": "https://studio-next.genlayer.com/api",
+  "chain_id": 61997,
+  "explorer": "https://explorer-studio-dev.genlayer.com/",
+  "contract": "contracts/grantgate.py",
+  "constructor_args": {
+    "delivery_window": 2592000,
+    "evidence_window": 1209600,
+    "review_window": 1209600,
+    "note": "seconds: 30 days to deliver, 14 days to add evidence, 14 days for a review to succeed"
+  },
+  "address": null,
+  "deployment_tx": null,
+  "deployer": null,
+  "evidence_transactions": {
+    "create_grant": null,
+    "submit_milestone": null,
+    "review_milestone": null,
+    "payment_or_refund_visible_in": null,
+    "reclaim_expired_optional": null
+  },
+  "stack": {
+    "genlayer-js": "2.0.0-rc.1",
+    "@genlayer/transaction-kit": "0.1.0-rc.2"
+  },
+  "status": "not_deployed",
+  "note": "Fill in after deploying and running the flow in docs/EVIDENCE.md, then set status to deployed."
+}

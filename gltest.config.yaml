@@ -1,0 +1,13 @@
+networks:
+  default: studio-next
+  localnet:
+    url: http://127.0.0.1:4000/api
+    leader_only: false
+  studio-next:
+    url: https://studio-next.genlayer.com/api
+    id: 61997
+    leader_only: false
+paths:
+  contracts: contracts
+  artifacts: artifacts
+environment: .env
